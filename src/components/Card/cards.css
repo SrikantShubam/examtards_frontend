@@ -1,0 +1,143 @@
+
+.card {
+    display: flex;
+/* Vertically align items */
+  }
+  .card-side{
+    padding-top: 2rem;
+    margin-right: 2rem;
+  
+  }
+  .small-card{
+    border-radius: 0.9375rem;
+
+    padding: 1.25rem 0.75rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    background-color:#005AC1;
+    color: #DBE2F9;
+font-size: 24px;
+font-family: Comfortaa;
+font-weight: 400;
+line-height: 28.80px;
+word-wrap: break-word
+  }
+  .card-body {
+    flex: 1; /* Allow the card-body to take remaining space */
+  }
+  
+
+.card{
+ background-color: var(--material-theme-sys-light-secondary-fixed, #DBE2F9);
+
+    filter: drop-shadow(0px 16px 24px rgba(0, 0, 0, 0.14));
+    outline: none;
+    border: none;
+    /* height: 8rem; */
+
+border-radius: 10px;
+}
+.card:hover .card-text, .card:hover .card-title{
+    color: #ADC6FF !important;
+    border-bottom: none!important;
+  }
+.card:hover {
+    background-color: #141B2C;
+ 
+  }
+.card-side h5{
+    padding: .5rem 0;
+    color: var(--material-theme-sys-light-on-primary, #FFF);
+text-align: center;
+/* material-theme/display/small */
+font-family: Comfortaa;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+}
+.card-title{
+    color: var(--material-theme-sys-light-on-primary-container, #001A41);
+padding-left: 1rem;
+padding-top: 1rem;
+/* material-theme/label/medium */
+font-family: Roboto;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1rem; /* 133.333% */
+}
+.card-text{
+    padding-left: 1rem;
+
+color: var(--material-theme-sys-light-on-primary-container, #001A41);
+
+
+/* material-theme/label/medium */
+font-family: Roboto;
+font-size: 0.8rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1rem; /* 133.333% */
+}
+@media(max-width:1024px) {
+    .card{
+      padding-bottom: 12rem;
+      margin-bottom: 2rem;
+      margin-left: 2rem;
+      width: 17rem;
+     
+    }
+    .card-title{
+        font-size: 1rem;
+        line-height: 1.25rem; /* 142.857% */
+    }
+    .card-text{
+        font-size: .9rem;
+
+    }
+}
+
+
+@media(max-width:480px) {
+  #card-jum{
+    margin-top: -21rem;
+  }
+    .card-body{
+        padding: .5rem;
+    }
+  
+    .card{
+        width: 12rem;
+        margin-left: 6rem;
+        padding-bottom: 12rem;
+      height: 1rem!important;
+       
+        
+      
+    }
+    .card-title{
+        font-size: 20px;
+        line-height: 1.7rem; /* 145.455% */ /* 142.857% */
+       
+    }
+    .card-text{
+        font-size:16px;
+      
+    }
+    /* .card-side h5{
+        font-size: 20px;
+    }
+    .card-side{
+        margin-left: 1rem;
+    }
+    .card-side{
+        padding:0 3.5rem ;
+    }
+    .small-card{
+  padding: 1.2rem 1rem;
+    } */
+    .card-side{
+        display: none;
+    }
+    }

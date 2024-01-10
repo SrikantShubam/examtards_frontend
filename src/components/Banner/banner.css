@@ -1,0 +1,125 @@
+.banner{
+  margin-top: 1rem;
+    background-image: url('../../assets/images/banner_image.png');
+    background-repeat: no-repeat;
+  
+    width: 100%;
+ background-size:cover;
+ height: 20.0625rem;
+   
+ border-radius: 1.875rem;
+}
+.content{
+    /* width: 55.375rem; */
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.banner h1{
+  
+    line-height: 4rem;
+}
+
+.btn-custom{
+    display: inline-flex;
+
+align-items: center;
+gap: 0.9375rem;
+color:#ffff;
+background: var(--light-on-primary-fixed-variant, #004494);
+
+font-family: Roboto;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25rem;
+
+}
+
+
+.form-control{
+    background-color: var(--light-on-primary-fixed-variant, #004494) !important;
+    border: none;
+
+      outline: none !important;
+}
+ 
+
+  
+.input-group{
+    background-color: var(--light-on-primary-fixed-variant, #004494);
+    margin-top: 15rem;
+    color: #FFF;
+border-radius: 0.9375rem!important;
+
+
+  }
+
+
+
+  .form-control:focus {
+    background-color: var(--light-on-primary-fixed-variant, #004494);
+    border: none;
+    outline: none !important;
+    color: white;
+    box-shadow: none; 
+  }
+  .search-form .input-group-text {
+    border: none;
+    color: white;
+    background-color: #004494;
+  }
+  
+  .search-form input.form-control::placeholder {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.875rem;
+    line-height: 1.5rem; 
+    text-align: center; 
+    background-color: #004494; 
+    color: white; 
+  }
+  
+  .search-form .input-group {
+    width: 18.0625rem; 
+    padding: 0.3125rem 2.25rem 0.3125rem 1.875rem; 
+    border-radius: 0.9375rem; 
+  }
+
+
+
+  @media (max-width:1024px) { 
+   
+    .content h1{
+      font-family: 'Comfortaa';
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 3.25rem; 
+    
+    }
+        .content{
+          margin-top: 0rem;
+          padding:2rem;
+        }
+        .input-group{
+          padding-right: 2.5rem!important;
+        }
+     }
+
+     @media(max-width:480px) {
+      .content{
+        padding: 1.5rem 1.5rem 0rem 1.5rem;
+      }
+    .content h1{
+      font-size: 2rem;
+      font-family: 'Comfortaa';
+      line-height: 2.4rem; 
+      }
+      .input-group{
+        margin-top: 0rem;
+        margin-left: 1rem;
+        width: 12rem;
+        
+      }
+      
+    }

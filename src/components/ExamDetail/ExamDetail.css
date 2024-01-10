@@ -1,0 +1,438 @@
+
+#exam_details{
+    margin-top: 4rem;
+    min-height: 100vh;
+
+}
+.body{
+  min-height: 100vh;
+}
+#main{
+    padding-top:  3rem!important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+}
+#exam_details #main{
+    
+    padding-top: 4rem;
+    background: var(--material-theme-sys-light-secondary-container, #DBE2F9);
+    border-radius: 0.625rem;
+    
+
+    
+}
+#exam_details {
+align-items: center;
+gap: 4.6875rem;
+
+}
+
+#exam_details .col-md-5 h4{
+   
+    color: var(--material-theme-sys-light-on-primary-fixed-variant, #004494);
+font-family: Roboto;
+font-size: 2rem;
+font-style: italic;
+font-weight: 500;
+line-height: 2.5rem; 
+margin-bottom: 1.38rem;
+
+}
+#exam_details .col-md-5 h5{
+    color: var(--material-theme-sys-light-on-primary-fixed-variant, #004494);
+padding-top: 0.75rem;
+/* material-theme/body/large */
+font-family: Roboto;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+margin-bottom: 1.38rem;
+}
+
+#exam_details .col-md-5 h6{
+    color: var(--material-theme-sys-light-on-primary-fixed-variant, #004494);
+    width: 16.875rem;
+
+    /* material-theme/body/medium */
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 142.857% */
+}
+
+#exam_details #main .col-md-7 h2{
+    color: var(--material-theme-sys-light-on-secondary-fixed-variant, #3F4759);
+    text-align: left;
+    
+    /* material-theme/headline/medium */
+    font-family: Roboto;
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 2.25rem; /* 128.571% */
+    margin-bottom: 2rem;
+}
+
+#exam_details #main .col-md-7 .card-2 {
+    border-radius: 0.46569rem;
+    background: var(--material-theme-sys-light-primary-fixed-dim, #ADC6FF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+    /* 16 dp penumbra */
+    box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+    padding: 2.6875rem 2.8125rem;
+    text-align: center; 
+    width: 11.5rem;
+      margin: 0 auto;
+      
+  
+  
+}
+
+#exam_details #main .col-md-7 .card-2 h2 {
+    color: var(--material-theme-sys-light-primary, #005AC1);
+    /* Removed text-align: center */
+    /* material-theme/headline/medium */
+    font-family: Roboto;
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 2.25rem; /* 128.571% */
+    margin: 0; /* Added */
+}
+
+#exam_details #main .col-md-3  h3{
+    color: #000;
+text-align: center;
+margin-top: .5rem;
+/* material-theme/headline/small */
+font-family: Roboto;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 133.333% */
+}
+
+ #second{
+    margin-top: 1.5rem;
+}
+#second .col-md-5 {
+    border-radius: 0.625rem;
+background: var(--material-theme-sys-light-primary-container, #D8E2FF);
+}
+
+#second{
+    padding-top:  3rem!important;
+   
+}
+#second .col-md-5 h1{
+    color: var(--material-theme-sys-light-on-primary-fixed-variant, #004494);
+
+/* material-theme/headline/medium */
+font-family: Roboto;
+font-size: 1.75rem;
+font-style: italic;
+font-weight: 400;
+line-height: 2.25rem; /* 128.571% */
+padding-top: 1.94rem;
+
+padding-left: 1.56rem;
+}
+#second .col-md-5 p{
+    color: #000;
+    
+
+    /* material-theme/body/small */
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.705rem; 
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+
+}
+
+#second #content{
+    border-radius: 0.625rem;
+background: #E1E2EC;
+padding:2.44rem; 
+margin-left: 5.5rem;
+
+}
+#second #content h2{
+    text-align: left;
+    color: var(--material-theme-sys-light-on-primary-fixed-variant, #004494);
+
+
+/* material-theme/headline/medium */
+font-family: Roboto;
+font-size: 1.75rem;
+font-style: italic;
+font-weight: 400;
+line-height: 2.25rem; /* 128.571% */
+}
+#second #content p{
+    color: #000;
+
+/* material-theme/headline/small */
+font-family: Roboto;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 133.333% */
+}
+
+#third {
+    margin-top: 4rem;
+  }
+  
+  #third #content {
+    border-radius: 0.625rem;
+    background: var(--material-theme-sys-light-primary-container, #D8E2FF);
+    display: flex;
+    justify-content: center; /* Align items horizontally center */
+    align-items: center; /* Align items vertically center */
+    padding: 2.0625rem 1.4375rem;
+  }
+  
+  #third #content h2 {
+    color: var(--material-theme-sys-light-on-primary-fixed-variant, #004494);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2.25rem; /* 128.571% */
+    margin: 0; 
+    
+  }
+  .italic-text{
+    font-style: italic;
+  }
+  #third #content .plus-icon {
+    margin-right: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--material-theme-sys-light-on-primary-fixed-variant, #004494);
+    font-family: Roboto;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2.25rem;
+    margin-left: 0.5rem; /* Adjust margin as needed */
+  }
+  #third .content-2{
+    padding: 0.4375rem 23.9375rem 7.8125rem 1.625rem;
+    border-radius: 0.625rem;
+background: #D8E2FF;
+margin-left: 4.5rem;
+  }
+  #third .content-2 h1{
+    color: var(--material-theme-sys-light-on-primary-fixed-variant, #004494);
+
+/* material-theme/headline/medium */
+font-family: Roboto;
+font-size: 1.75rem;
+font-style: italic;
+font-weight: 400;
+line-height: 2.25rem; /* 128.571% */
+padding-left: 1.65rem;
+padding-top: 1.65rem;
+  }
+  #third .content-2 p{
+    color: #000;
+
+/* material-theme/headline/small */
+font-family: Roboto;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 133.333% */
+padding-left: 1.65rem;
+text-transform: capitalize;
+  }
+  #third .content-2 i{
+    margin-top: 0 auto;
+  }
+  .text-imp{
+    color: #000;
+
+/* material-theme/headline/small */
+font-family: Roboto;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 133.333% */
+text-transform: capitalize;
+padding-left: 1.65rem;
+padding-top: 1.65rem;
+  }
+  .icon-imp{
+    padding-left: 1.65rem;
+padding-top: 1.65rem;
+color: #000!important;
+  }
+  .icon-imp a{
+    text-decoration: none;
+    color: #000!important;
+  }
+
+#third #content:hover{
+  cursor: pointer;
+  color: #adc6ff !important;
+  background-color: #004494!important;
+}
+#third #content:hover h2 {
+  color: #adc6ff !important;
+}
+#forth {
+  margin-top: 4rem;
+  margin-bottom: 10rem!important;
+  
+}
+
+.centered-input {
+  text-align: center;
+}
+#forth .wrapper{
+  background: var(--material-theme-sys-light-primary-container, #D8E2FF);
+  padding: 1rem 3rem;
+  border-radius: 0.625rem;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.20);
+}
+.centered-input input[type="text"] {
+ 
+  font-size: 16px;
+  border-radius: 0.625rem;
+  background: var(--material-theme-sys-light-primary-container, #D8E2FF); 
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 2rem;
+  border: 1px solid transparent; /* Add a transparent border */
+}
+
+.centered-input input[type="text"]::placeholder {
+  color: #005AC1;
+}
+
+/* Style the border color when the input is focused */
+#forth .centered-input input[type="text"]:focus {
+  border-color: #0060c0!important;
+  outline: none; /* Remove default outline */
+}
+#forth .centered-input button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  /* Add any other styles you need */
+}
+.text-content h6{
+  font-size: 1rem;
+}
+  @media (max-width:1024px) { 
+
+ #second   #content {
+      margin-left: 2.5rem;
+    }
+    #third .content-2{
+      margin-left: 1.5rem;
+    }
+    #exam_details #main .col-md-7 .card-2 {
+      width: 100%;
+    }
+    #exam_details #main .col-md-5 h5{
+      font-size: 1.5rem;
+    }
+    #exam_details #main .col-md-5 h6{
+font-size: 1.2rem;
+line-height: 2rem;
+    }
+    #second .col-md-5  p{
+font-size:1.2rem
+    }
+  }
+
+  @media(max-width:430px) {
+    #exam_details{
+      padding-right:1rem !important;
+      padding-left:1rem !important;
+      overflow-x: none;
+    }
+
+    #third .content-2{
+      padding: 0;
+      margin-top: 2rem;
+      margin-left: -1rem;
+      margin-right: -1rem;
+
+    }
+    #exam_details .col-sm-4{
+     width: 33%;
+    }
+    #second #content{
+      margin-top: 2rem;
+      margin-left: 0;
+    }
+    .content-2{
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+    }
+    .content-2 .text-imp,.content-2 .icon-imp{
+      padding-bottom: 2rem;
+    }
+   #exam_details #main h4{
+      font-size: 1.5rem;
+      line-height: 2rem;
+      font-family: Roboto;
+font-style: normal;
+    }
+    #exam_details #main h5{
+      color: var(--material-theme-sys-light-on-primary-fixed-variant, #004494);
+
+/* material-theme/title/small */
+font-family: Roboto;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25rem; /* 142.857% */
+    }
+    #exam_details #main h6{
+      color: var(--material-theme-sys-light-on-primary-fixed-variant, #004494);
+
+/* material-theme/body/small */
+font-family: Roboto;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1rem; /* 133.333% */
+    }
+    #main > div.col-md-7.col-sm-12 > h2{
+      color: var(--material-theme-sys-light-on-secondary-fixed-variant, #3F4759);
+
+/* material-theme/headline/small */
+
+font-style: normal !important;
+margin-top: 1rem;
+    }
+    .text-content p{
+      font-size: 1.5rem !important;
+    }
+    #second p {
+      font-size: 1.3rem!important;
+    }
+    #second .col-md-5 p{
+      font-size: 1rem!important;
+      
+      
+    }
+    #second .col-md-5{
+      margin-bottom: 2rem;
+      
+    }
+  }
