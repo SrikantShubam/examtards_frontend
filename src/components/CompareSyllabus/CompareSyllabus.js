@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
 import ReactApexChart from 'react-apexcharts';
 
+
 import {  XIcon, WhatsappIcon,WhatsappShareButton, TwitterShareButton } from 'react-share';
 import { Helmet } from 'react-helmet';
 import mainlogo from '../../assets/images/favicon.ico';
