@@ -3,6 +3,11 @@ import './Contact.css';
 import emailjs from '@emailjs/browser';
 import { Helmet } from 'react-helmet';
 import mainlogo from '../../assets/images/favicon.ico';
+
+
+const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+const userId = process.env.REACT_APP_EMAILJS_USER_ID;
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -17,9 +22,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-    const userId = process.env.REACT_APP_EMAILJS_USER_ID;
+
 
     emailjs.sendForm(serviceId, templateId, e.target, userId)
       .then((result) => {
