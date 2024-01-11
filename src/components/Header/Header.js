@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar'
  const navbarLinks = [
     
     { text: 'Compare Syllabus', url: '/compare-syllabus'  },
-    { text: 'Contact', url: '/contact-us'},
+    { text: 'Request an exam', url: '/contact-us'},
   ];
 const Header = () => {
   return (

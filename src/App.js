@@ -1,6 +1,7 @@
 import React , { useState } from 'react';
 import './App.css';
-import { Routes, Route} from 'react-router-dom';
+import { Routes, Route,Link} from 'react-router-dom';
+
 
 import {Header,Banner,Card,Sidenav,Footer,CompareSyllabus,ExamDetail,Contact,Disclaimer} from './components';
 
@@ -40,7 +41,8 @@ function App() {
                 </div>
               </div>
             </div>
-           
+          <h5 className='text-center my-2'>Help us create the one-stop destination for exams excellence.</h5>
+          <Link to="/contact-us"><h4 className=' text-center my-4'>Contribute</h4></Link>
             </div>
       
      

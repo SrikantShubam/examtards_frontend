@@ -62,7 +62,7 @@ const Contact = () => {
       <div className="col-md-7 col-sm-12">
         <div className="content c-2 mt-5">
           <h1 className=''>Request an Exam</h1>
-          <h5>Hey we know , that there ain't a lot of exams in the database yet. So please request a specific exam to go it asap.</h5>
+          <h5>Join us in building the ultimate exams repository! Your contribution makes it the go-to resource for all. Help us create the one-stop destination for exams excellence.</h5>
         </div>
       </div>
     </div>
