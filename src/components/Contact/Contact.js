@@ -50,7 +50,7 @@ const Contact = () => {
     <title>Exam Tards | Contact Us</title>
     <meta
       name="description"
-      content="Contact Exam Tards and helo in contributing towards the best place an aspirant can have." 
+      content="Contact Exam Tards and help in contributing towards the best place an aspirant can have." 
     />
     <meta name="keywords" content="contact us,examtards contact us,request an exam examtards,colab examtards,report a bug"></meta>
     <meta property="og:title" content="Exam Tards | Contact Us"></meta>
