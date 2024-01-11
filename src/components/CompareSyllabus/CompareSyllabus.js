@@ -24,7 +24,7 @@ function CompareSyllabus() {
 
   useEffect(() => {
 
-    fetch('https://examtbackend.azurewebsites.net/all-exams/')
+    fetch('https://thatisbig.azurewebsites.net/all-exams/')
       .then((response) => response.json())
       .then((data) => {
         if (data && data.exam_names) {
@@ -76,7 +76,7 @@ function CompareSyllabus() {
 
   const fetchComparison = (examOne, examTwo) => {
  
-    fetch(`https://examtbackend.azurewebsites.net/compare_syllabus/?selected_exam_names[]=${examOne}&selected_exam_names[]=${examTwo}`)
+    fetch(`https://thatisbig.azurewebsites.net/compare_syllabus/?selected_exam_names[]=${examOne}&selected_exam_names[]=${examTwo}`)
       .then(response => {
         if (response.ok) {
          
