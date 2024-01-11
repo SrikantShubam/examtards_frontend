@@ -5,7 +5,7 @@
   }
   .card-side{
     padding-top: 2rem;
-    margin-right: 2rem;
+    padding-right: 1rem;
   
   }
   .small-card{
@@ -25,6 +25,7 @@ word-wrap: break-word
   }
   .card-body {
     flex: 1; /* Allow the card-body to take remaining space */
+    padding: .5rem;
   }
   
 
