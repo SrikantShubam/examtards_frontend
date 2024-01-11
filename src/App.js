@@ -42,7 +42,7 @@ function App() {
               </div>
             </div>
           <h5 className='text-center my-2'>Help us create the one-stop destination for exams excellence.</h5>
-          <Link to="/contact-us"><h4 className=' text-center my-4'>Contribute</h4></Link>
+          <Link to="/contact-us"><h4 className=' text-center my-4'><i>Contribute</i></h4></Link>
             </div>
       
      

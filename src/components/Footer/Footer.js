@@ -1,7 +1,8 @@
 import React from 'react'
 import './footer.css';
 import { Link } from 'react-router-dom';
-
+import {  XIcon, WhatsappIcon,WhatsappShareButton,FacebookIcon,LinkedinIcon,TelegramIcon,LinkedinShareButton, TelegramShareButton, FacebookShareButton, TwitterShareButton } from 'react-share';
+const ShareURL="https://examtards-frontend.vercel.app/";
 function Footer() {
   return (
     <>
@@ -21,13 +22,25 @@ function Footer() {
         <Link to="/contact-us"><h4 className='mt-3'>Contribute </h4></Link>
       </div>
       <div className="col-md-4   col-sm-12 L3 ">
-        <h3 >Follow Us</h3>
+        <h3 >Share now</h3>
         <div className="links mt-3 ">
-          <i className="fab fa-whatsapp mr-5 fa-2x"></i>
-          <i className="fab fa-github fa-2x"></i>
+          
+          <WhatsappShareButton  url={ShareURL}   title="Begin your exam journey with exam tards" >
+          <WhatsappIcon size={32} round className='mx-2' />
+          </WhatsappShareButton>
+          
+
+          <TwitterShareButton url={ShareURL}  className='mx-2' >
+          <XIcon size={32} round />
+          </TwitterShareButton>
+          <FacebookShareButton  url={ShareURL} hashtag='examtards'><FacebookIcon size={32} round  className='mx-2'/></FacebookShareButton>
+          <LinkedinShareButton  url={ShareURL} title="exam tards" summary="Hey we are examtards, making the world's biggest one stop for any aspirants to start their exam journey."><LinkedinIcon size={32} round  className='mx-2'/></LinkedinShareButton>
+          <TelegramShareButton  url={ShareURL} title='examtards'><TelegramIcon size={32} round  className='mx-2'/> </TelegramShareButton>
+
+        </div>
         </div>
       </div>
-    </div>
+
     <div className="row mt-5">
       <div className="col-12 text-center">
         <p>
