@@ -87,7 +87,7 @@ line-height: 1rem; /* 133.333% */
 }
 @media(max-width:1024px) {
     .card{
-      padding-bottom: 12rem;
+      padding-bottom: 2rem;
       margin-bottom: 2rem;
       margin-left: 2rem;
       width: 17rem;
