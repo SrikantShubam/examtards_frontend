@@ -4,6 +4,9 @@
     display: flex;
 /* Vertically align items */
   }
+  #card-jum{
+    margin-left: 4rem;
+  }
   .card-side{
     padding-top: 2rem;
     padding-right: 1rem;
@@ -103,7 +106,8 @@ line-height: 1rem; /* 133.333% */
 
 @media(max-width:480px) {
   #card-jum{
-    margin-top: -21rem;
+    margin-top: -44rem;
+    margin-left: 9.5rem;
   }
     .card-body{
         padding: .5rem;
@@ -112,14 +116,15 @@ line-height: 1rem; /* 133.333% */
     .card{
         width: 12rem;
         margin-left: 6rem;
-        padding-bottom: 12rem;
-      height: 1rem!important;
+        padding-bottom: 10rem;
+   margin-bottom: 0;
        
         
       
     }
     .card-title{
-        font-size: 20px;
+      font-weight: bold;
+        font-size: 1.2rem;
         line-height: 1.7rem; /* 145.455% */ /* 142.857% */
        
     }

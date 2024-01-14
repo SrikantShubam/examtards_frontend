@@ -61,7 +61,7 @@ function ExamDetail() {
 
   const handleDownloadSyllabus = async (examName) => {
     try {
-      const response = await axios.get(`http://localhost:8000/download-syllabus/${encodeURIComponent(examName)}`, {
+      const response = await axios.get(`https://thatisbig.azurewebsites.net/download-syllabus/${encodeURIComponent(examName)}`, {
         responseType: 'blob', // Ensure response type is set to 'blob'
       });
   
@@ -91,7 +91,7 @@ else if(error.response.status===500){
 
   const handleDownloadPattern = async (examName) => {
     try {
-      const response = await axios.get(`http://localhost:8000/download-pattern/${encodeURIComponent(examName)}`, {
+      const response = await axios.get(`https://thatisbig.azurewebsites.net/download-pattern/${encodeURIComponent(examName)}`, {
         responseType: 'blob', // Ensure response type is set to 'blob'
       });
   

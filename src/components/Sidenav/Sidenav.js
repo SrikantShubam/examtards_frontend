@@ -30,7 +30,17 @@ function Sidenav({ handleCategoryClick }) {
         {categories.map(category => (
           <li key={category}>
             <div className='wrapper-buttons ' onClick={() => handleCategoryClick(category)} target="_blank" rel="noopener noreferrer" tabIndex="0">
-              <button className="btn">{category}</button>
+              <button className="btn">
+              {category.split(' ').length === 2 ? (
+                <>
+                  {category.split(' ')[0]}
+                  <br />
+                  {category.split(' ')[1]}
+                </>
+              ) : (
+                category
+              )}
+              </button>
                 
              
               <i className="fas fa-chevron-right"></i>
