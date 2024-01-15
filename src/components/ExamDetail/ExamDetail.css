@@ -182,10 +182,10 @@ line-height: 2.25rem; /* 128.571% */
 
 /* material-theme/headline/small */
 font-family: Roboto;
-font-size: 1.5rem;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
-line-height: 2rem; /* 133.333% */
+line-height: 1.4rem; /* 133.333% */
 }
 
 #third {
