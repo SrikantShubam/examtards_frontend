@@ -20,6 +20,7 @@
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.20.1",
     "react-scripts": "5.0.1",
+    "react-scroll-up-button": "^1.6.4",
     "react-share": "^5.0.3",
     "web-vitals": "^2.1.4"
   },
