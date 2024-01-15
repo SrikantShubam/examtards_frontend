@@ -3,7 +3,8 @@ import './Contact.css';
 import emailjs from '@emailjs/browser';
 import { Helmet } from 'react-helmet';
 import mainlogo from '../../assets/images/favicon.ico';
-
+import { ReactComponent as MySVG } from "./up.svg";
+import ScrollToTop from "react-scroll-to-top";
 
 
 const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
@@ -175,7 +176,7 @@ const Contact = () => {
       </div>
     </div></section>
 
-  
+    <ScrollToTop smooth component={<MySVG />} />
 
     </div>
   );

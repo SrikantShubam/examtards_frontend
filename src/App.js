@@ -1,8 +1,8 @@
 import React , { useState } from 'react';
 import './App.css';
 import { Routes, Route,Link} from 'react-router-dom';
-
-import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
+import { ReactComponent as MySVG } from "./up.svg";
+import ScrollToTop from "react-scroll-to-top";
 import {Header,Banner,Card,Sidenav,Footer,CompareSyllabus,ExamDetail,Contact,Disclaimer} from './components';
 
 
@@ -45,13 +45,10 @@ function App() {
           <Link to="/contact-us"><h4 className=' text-center my-4'><i>Contribute</i></h4></Link>
 
 
-          <ScrollUpButton
-          EasingType="easeInCubic"
-          style={{ backgroundColor: "white", borderRadius: "5px" }}
-        />
+      
             </div>
       
-     
+            <ScrollToTop smooth component={<MySVG />} />
           
           </>
         }

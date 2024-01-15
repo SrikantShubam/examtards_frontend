@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import './ExamDetail.css';
-import {TinyButton as ScrollUpButton} from "react-scroll-up-button";
+import { ReactComponent as MySVG } from "./up.svg";
+import ScrollToTop from "react-scroll-to-top";
 import { Helmet } from 'react-helmet';
 import mainlogo from '../../assets/images/favicon.ico';
 function calculateExamDuration(examDate) {
@@ -288,12 +289,9 @@ else if(error.response.status===500){
   ) : (
     <p>Loading...</p>
   )}
-  <ScrollUpButton
-  EasingType="easeInCubic"
-  style={{ backgroundColor: "white", borderRadius: "5px", color: "red" }}
-/>
+ 
   </div>
-
+  <ScrollToTop smooth component={<MySVG />} />
 </>
 
   );
