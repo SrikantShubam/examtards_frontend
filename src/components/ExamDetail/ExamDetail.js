@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import './ExamDetail.css';
-import { ReactComponent as MySVG } from "./up.svg";
+import { ReactComponent as MySVG } from "../../up.svg";
 import ScrollToTop from "react-scroll-to-top";
 import { Helmet } from 'react-helmet';
 import mainlogo from '../../assets/images/favicon.ico';
