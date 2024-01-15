@@ -1,9 +1,23 @@
 
 .card {
-  margin-top: 1.5rem;
-    display: flex;
+  display: flex;
+  height: 9rem;
+  color: var(--material-theme-sys-light-on-primary-container, #001A41);
 /* Vertically align items */
-  }
+
+}
+.over{
+  background-color: #141B2C!important;
+  color: white !important;
+}
+.over:hover{
+  background-color:#005AC1!important;
+  color: #DBE2F9!important;
+}
+.no-display{
+  display: none!important;
+
+}
   #card-jum{
     margin-left: 4rem;
   }
@@ -43,10 +57,10 @@ word-wrap: break-word
 
 border-radius: 10px;
 }
-.card:hover .card-text, .card:hover .card-title{
-    color: #ADC6FF !important;
-    border-bottom: none!important;
-  }
+.card:hover , .card:hover .card-title{
+  color: #ffffff ;
+  border-bottom: none!important;
+}
 .card:hover {
     background-color: #141B2C;
  
@@ -62,7 +76,7 @@ font-style: normal;
 font-weight: 400;
 }
 .card-title{
-    color: var(--material-theme-sys-light-on-primary-container, #001A41);
+
 padding-left: 1rem;
 padding-top: 1rem;
 /* material-theme/label/medium */
@@ -75,7 +89,7 @@ line-height: 1rem; /* 133.333% */
 .card-text{
     padding-left: 1rem;
 
-color: var(--material-theme-sys-light-on-primary-container, #001A41);
+
 
 
 /* material-theme/label/medium */
