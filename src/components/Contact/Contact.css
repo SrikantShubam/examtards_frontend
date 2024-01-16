@@ -23,9 +23,11 @@ label {
 
 }
 
-.card{
+.card-x{
 	margin-left: 10px;
 	margin-right: 10px;
+   border-radius: 10px;
+   background-color: rgb(255, 249, 249);
 }
 
 
@@ -33,14 +35,14 @@ label {
     background-color: aliceblue!important;
     color: black!important;
 }
-#contact .card{
+#contact .card-x{
     margin-top: 5rem!important;
     margin-bottom: 5rem;
 }
 @media(max-width:480px) {
 
-    #contact .card{
-        width: 24rem;
+    #contact .card-x{
+        width: 24rem!important;
   height: 40rem!important;
     }
     .c-2 h1{

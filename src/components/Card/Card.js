@@ -37,7 +37,7 @@ function Card({ category }) {
   };
 
   return (
-    <div className="row" id="card-jum" style={{ marginLeft: '4rem' }}>
+    <div className="row" id="card-jum" >
       {exams.map((exam, index) => (
         <div className="col-lg-4 col-sm-12" key={index}>
           <Link to={`/exam-detail/${encodeURIComponent(exam.name.replace(/\s/g, '-'))}`}>

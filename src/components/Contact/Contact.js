@@ -73,8 +73,8 @@ const Contact = () => {
 <section id="contact">
 <div className="row">
       <div className="col-lg-7 col-md-10 col-sm-12 mx-auto">
-        <div className="card mt-2 mx-auto p-4 bg-light">
-          <div className="card-body">
+        <div className="card-x mt-2 mx-auto p-4 ">
+          <div className="card-x-body">
             <form id="contact-form" role="form" onSubmit={handleSubmit} >
               <div className="row">
                 <div className="col-md-6">
