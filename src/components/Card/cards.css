@@ -3,6 +3,7 @@
   display: flex;
   height: 9rem;
   color: var(--material-theme-sys-light-on-primary-container, #001A41);
+  margin-top: 1rem;
 /* Vertically align items */
 
 }
@@ -120,14 +121,16 @@ line-height: 1rem; /* 133.333% */
 
 @media(max-width:480px) {
   #card-jum{
-    margin-top: -45.75rem;
-    margin-left: 9.5rem;
+    margin-top: -56.4rem;
+    margin-left: 3rem;
+   
   }
     .card-body{
         padding: .5rem;
     }
   
     .card{
+      margin-top: 1rem;
         width: 12rem;
         margin-left: 6rem;
         padding-bottom: 2.5rem;
