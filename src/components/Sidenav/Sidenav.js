@@ -17,7 +17,7 @@ function Sidenav({ handleCategoryClick }) {
         });
 
         setCategories(sortedCategories);
-        console.log(response.data.categories);
+      
       })
       .catch(error => {
         console.error('Error fetching categories:', error);
