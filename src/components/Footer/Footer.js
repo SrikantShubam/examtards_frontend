@@ -1,8 +1,8 @@
 import React from 'react'
 import './footer.css';
 import { Link } from 'react-router-dom';
-import {  XIcon, WhatsappIcon,WhatsappShareButton,FacebookIcon,LinkedinIcon,TelegramIcon,LinkedinShareButton, TelegramShareButton, FacebookShareButton, TwitterShareButton } from 'react-share';
-const ShareURL="https://examtards-frontend.vercel.app/";
+import {  RedditIcon,XIcon, WhatsappIcon,WhatsappShareButton,FacebookIcon,LinkedinIcon,TelegramIcon,LinkedinShareButton, TelegramShareButton, FacebookShareButton, TwitterShareButton } from 'react-share';
+const ShareURL="https://examtards.com";
 function Footer() {
   return (
     <>
@@ -36,6 +36,11 @@ function Footer() {
           <FacebookShareButton  url={ShareURL} hashtag='examtards'><FacebookIcon size={32} round  className='mx-2'/></FacebookShareButton>
           <LinkedinShareButton  url={ShareURL} title="exam tards" summary="Hey we are examtards, making the world's biggest one stop for any aspirants to start their exam journey."><LinkedinIcon size={32} round  className='mx-2'/></LinkedinShareButton>
           <TelegramShareButton  url={ShareURL} title='examtards'><TelegramIcon size={32} round  className='mx-2'/> </TelegramShareButton>
+
+        </div>
+        <div className='mt-5'><h3 >Message us  </h3> </div> 
+        <div className='links mt-3'>
+       <a href="https://www.reddit.com/user/ManOWarBooty" target='blank'><RedditIcon size={32} round  className='mx-2'/></a>  
 
         </div>
         </div>
