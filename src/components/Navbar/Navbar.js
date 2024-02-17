@@ -9,7 +9,7 @@ function Navbar(props) {
     <nav className="navbar navbar-expand-lg navbar-light">
 <Link to="/" className="navbar-brand ">
 <div className="nav-custom">
-<img src={mainlogo}/>
+<img src={mainlogo} alt='logo of examtards'/>
 <div className="title">Exam Tards</div>
 </div>
 
