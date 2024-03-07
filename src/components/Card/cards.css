@@ -120,18 +120,37 @@ line-height: 1rem; /* 133.333% */
 
 
 @media(max-width:480px) {
-  #card-jum{
+  .row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+   .col-md-2.col-sm-6 {
+    order: 1;
+    flex: 0 0 auto;
+    width: 30%;
+    max-width: 30%;
+  }
+
+  .col-md-10.col-sm-6 {
+    order: 2;
+    flex: 0 0 auto;
+    width: 70%;
+    max-width: 70%;
+    padding-left: 50px; /* Add some spacing between sidebar and cards */
+  }
+  /* #card-jum{ #removed
     margin-top: -92.4rem;
     margin-left: 3rem;
    
-  }
+  } */
     .card-body{
         padding: .5rem;
     }
   
     .card{
       margin-top: 1rem;
-        width: 12rem;
+        width: 9rem;
         margin-left: 6rem;
         padding-bottom: 2.5rem;
    margin-bottom: 0;
@@ -141,12 +160,12 @@ line-height: 1rem; /* 133.333% */
     }
     .card-title{
       font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 15px;
         line-height: 1.7rem; /* 145.455% */ /* 142.857% */
        
     }
     .card-text{
-        font-size:16px;
+        font-size:13px;
       
     }
     /* .card-side h5{
